@@ -404,6 +404,30 @@ h3 {
 }
 
 
+.scroll-btn {
+  width: 70px;
+  height: 70px;
+  background-color: #ff5f60;
+  opacity: 0.65;
+  border-radius: 30%;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: none;
+  cursor: pointer;
+}
+.scroll-btn-visible {
+  display: block;
+}
+.scroll-arrow {
+  margin: 26px auto 0;
+  width: 30px;
+  height: 30px;
+  border-top: 6px solid #6b0aff;
+  border-left: 6px solid #6b0aff;
+  transform: rotate(45deg);
+}
+
 @media (max-width: 1024px) {
   .header-main {
     display: block;
