@@ -1,9 +1,14 @@
 let scrollBtn = document.querySelector('.scroll-btn');
 
 scrollBtn.onclick = function () {
- window.scrollTo(0, 0);
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
 };
 window.onscroll = function () {
+
   if (window.pageYOffset > 500) {
     scrollBtn.classList.add('scroll-btn-visible')
   } else {

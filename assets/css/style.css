@@ -408,23 +408,27 @@ h3 {
   width: 70px;
   height: 70px;
   background-color: #ff5f60;
-  opacity: 0.65;
   border-radius: 30%;
   position: fixed;
   right: 50px;
   bottom: 50px;
-  display: none;
   cursor: pointer;
+  visibility: hidden;
+  transition: 0.5s;
+  opacity: 0;
 }
 .scroll-btn-visible {
-  display: block;
+  visibility: visible;
+  opacity: 0.6;
+
 }
 .scroll-arrow {
-  margin: 26px auto 0;
+  margin: 27px auto 0;
   width: 30px;
   height: 30px;
   border-top: 6px solid #6b0aff;
   border-left: 6px solid #6b0aff;
+  border-radius: 13%;
   transform: rotate(45deg);
 }
 
