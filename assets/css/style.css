@@ -236,9 +236,16 @@ p {
   float: right;
   margin-top: 42px;
   text-align: center;
+  overflow: hidden;
 }
-.slider-item {
+.slider-item-quote {
   margin: 0;
+  min-width: 562px;
+}
+.slider-items {
+  display: flex;
+  transform: translate(-1124px);
+  transition: transform 1s;
 }
 .review-text {
   font-size: 18px;
